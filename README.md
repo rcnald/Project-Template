@@ -14,6 +14,12 @@
 </p>
 
 
+# Instal dependencies
+
+```
+npm install
+```
+
 ## Start live-server, sass-live-compiler, tailwind-live-compiler
 
 ```
