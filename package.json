@@ -5,7 +5,7 @@
   "main": "dist/index.html",
   "author": "5t3ph",
   "scripts": {
-    "build:sass": "sass  --no-source-map src/sass:dist/css",
+    "build:sass": "sass  --no-source-map dist/css:dist/css",
     "copy:html": "copyfiles -u 1 ./src/*.html dist",
     "copy:js": "copyfiles -u 1 ./src/js/**/* dist",
     "copy:assets": "copyfiles -u 1 ./src/assets/**/* dist",
