@@ -14,22 +14,10 @@
 </p>
 
 
-# Instal dependencies
+| command line  | what does                                          | notes                            |
+|---------------|----------------------------------------------------|----------------------------------|
+| npm install   | install dependencies(node_modules)                 | execute once                     |
+| npm start     | run live-server, sass-compiler & tailwind-compiler | execute every time vscode open   |
+| npm run build | run autoprefixer                                   | execute when the project is over |
 
-```
-npm install
-```
-
-## Start live-server, sass-live-compiler, tailwind-live-compiler
-
-```
-npm start
-```
-
-## Build autoprefixes/minifies css
-
-```
-npm run build
-```
-
-[package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+# [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
