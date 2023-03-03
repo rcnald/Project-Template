@@ -1,3 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@forward './base';
+@forward './components';
+@forward './utilities';
+@forward './layout';
