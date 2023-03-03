@@ -13,11 +13,12 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
 </p>
 
+# How to use
 
 | command line  | what does                                          | notes                            |
 |---------------|----------------------------------------------------|----------------------------------|
 | npm install   | install dependencies(node_modules)                 | execute once                     |
-| npm start     | run live-server, sass-compiler & tailwind-compiler | execute every time vscode open   |
+| npm start     | run live-server, sass-compiler & tailwind-compiler | execute every time vscode opens  |
 | npm run build | run autoprefixer                                   | execute when the project is over |
 
 # [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
