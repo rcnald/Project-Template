@@ -1,4 +1,4 @@
-# Requisitos
+# Requirements
 
 - [Node.js](https://nodejs.org/en/download/) lib.
 
