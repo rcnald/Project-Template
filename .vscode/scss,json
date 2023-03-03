@@ -1,0 +1,43 @@
+{
+	"component name": {
+		"prefix": "component",
+		"body": [
+		  "\\$component-name: '';",
+		  "",
+		  ".#{\\$component-name}{",
+		  "",
+		  "}"
+		],
+		"description": "component name"
+	  },
+
+	  "layout name": {
+		"prefix": "layout",
+		"body": [
+		  "\\$layout-name: '';",
+		  "",
+		  ".#{\\$layout-name}{",
+		  "",
+		  "}"
+		],
+		"description": "layout name"
+	  },
+
+	  "use breakpoint": {
+		"prefix": "use breakpoint",
+		"body": [
+		  "@use '../abstract/' as *;",
+		],
+		"description": "use breakpoint"
+	  },
+
+	  "include breakpoint": {
+		"prefix": "include breakpoint",
+		"body": [
+		  " @include breakpoint(sm){",
+		  "        @apply ;",
+		  "    };"
+		],
+		"description": "include breakpoint"
+	  }
+}
