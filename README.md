@@ -1,9 +1,11 @@
-# Requirements
+<h1 align="center">Project Template</h1>
+
+## Requirements
 
 - [Node.js](https://nodejs.org/en/download/) lib.
 
 
-<h1 align="left">Techs</h1>
+<h2 align="left">Techs</h2>
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
@@ -13,12 +15,12 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
 </p>
 
-# How to use
+## How to use
 
-| command line  | what does                                          | notes                            |
-|---------------|----------------------------------------------------|----------------------------------|
-| npm install   | install dependencies(node_modules)                 | execute once                     |
-| npm start     | run live-server, sass-compiler & tailwind-compiler | execute every time vscode opens  |
-| npm run build | run autoprefixer                                   | execute when the project is over |
+| command line  | what does                          | notes               |
+|---------------|------------------------------------|---------------------|
+| npm install   | install dependencies(node_modules) | execute first, once |
+| npm start     | run live:server,sass & tailwind    | on production       |
+| npm run build | run autoprefixer                   | project is over     |
 
-# [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+## [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
