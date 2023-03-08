@@ -18,12 +18,15 @@
     }
   }
 
-  // @use '../abstract/' as *;
+/* 
+    to add this mixin into a file use:
+        @use '../abstract/' as *;
 
-  // to add this mixin into a file you will use it
+    to  use the mixin :
+        @include breakpoint(min-sm){
 
-  //  @include breakpoint(min-sm){
-  //         @apply ;
-  //     };
+        };
 
-  // use the mixin
+    prefix: min = min-width
+    prefix: max = max-width
+*/

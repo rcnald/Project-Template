@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/download/) lib.
+- [Node.js](https://nodejs.org/en/download/)
 
 
 <h2 align="left">Techs</h2>
@@ -23,4 +23,6 @@
 | npm start     | run live:server,sass & tailwind    | on production       |
 | npm run build | run autoprefixer                   | project is over     |
 
-## [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+## Credits
+
+[package.json file](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
