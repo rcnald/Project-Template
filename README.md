@@ -23,7 +23,7 @@ This project used the following technologies:
 |---------------|------------------------------------|---------------------|
 | npm install   | install dependencies(node_modules) | execute first, once |
 | npm start     | run live:server,sass & tailwind    | on production       |
-| npm run build | run autoprefixer                   | project is over     |
+| npm run build | run autoprefixer                   | project is done     |
 
 **npm install** must be executed when you git clone(download) the file to generate de 'node_modules' folder, within all dependencies to run the technologies.
 
