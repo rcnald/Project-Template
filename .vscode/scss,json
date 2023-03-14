@@ -26,18 +26,33 @@
 	  "use breakpoint": {
 		"prefix": "use breakpoint",
 		"body": [
-		  "@use '../abstract/' as *;",
+		  "@use '../abstract/' as *;"
 		],
 		"description": "use breakpoint"
+	  },
+
+	  "import index": {
+		"prefix": "import index",
+		"body": [
+		  "@use '' as *;"
+		],
+		"description": "import index"
 	  },
 
 	  "include breakpoint": {
 		"prefix": "include breakpoint",
 		"body": [
-		  " @include breakpoint(sm){",
-		  "        @apply ;",
-		  "    };"
+		  "@include breakpoint(min-sm){",
+		  "   @apply ;",
+		  "};"
 		],
 		"description": "include breakpoint"
+	  },
+	  "var": {
+		"prefix": "var",
+		"body": [
+		  "var()"
+		],
+		"description": "layout name"
 	  }
 }
