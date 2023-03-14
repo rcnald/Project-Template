@@ -42,7 +42,7 @@
 	  "include breakpoint": {
 		"prefix": "include breakpoint",
 		"body": [
-		  "@include breakpoint(min-sm){",
+		  "@include breakpoint(min,sm){",
 		  "   @apply ;",
 		  "};"
 		],
@@ -53,6 +53,6 @@
 		"body": [
 		  "var()"
 		],
-		"description": "layout name"
+		"description": "var"
 	  }
 }
