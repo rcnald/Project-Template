@@ -2,7 +2,7 @@
 	"component name": {
 		"prefix": "component",
 		"body": [
-		  "\\$component-name: '';",
+		  "\\$component-name: 'c-';",
 		  "",
 		  ".#{\\$component-name}{",
 		  "",
@@ -14,7 +14,7 @@
 	  "layout name": {
 		"prefix": "layout",
 		"body": [
-		  "\\$layout-name: '';",
+		  "\\$layout-name: 'l-';",
 		  "",
 		  ".#{\\$layout-name}{",
 		  "",
@@ -54,5 +54,5 @@
 		  "var()"
 		],
 		"description": "var"
-	  }
+	  },
 }
