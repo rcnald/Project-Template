@@ -31,6 +31,22 @@ This project used the following technologies:
 
 **npm run build** when the project is done, it agains compile, just the dist/css file, its runs autoprefixer plugin that prevent cross-browser issues.
 
+## 🤔 How do I code?
+
+To start the more complex thing is here in `sass/`, inside of it has a lot of sub folders based on [SMACSS](http://smacss.com) methodology, splitting the code, to an 
+easy maintenance, let me make myseft clear:
+
+### src/sass structure
+
+  - `abstract/` - contains variables and global style, like functions and mixins.
+  - `base/` - css reset, default styles.
+  - `components/` - pretty much all the css remains here, remeber: one component equal to one file, inside it has a component styling and a layout styling, usually contains objects and others components in it; context aware.
+  - `layouts/` - used to wrapper things up, in a global way.
+  - `objects/` - almost the same thing as components, but don't accept other objects or components other than itself.
+  - `states/` - animations.
+  - `themes/` - theme style, darkmode, halloween theme...
+  - `utilities/` - utilities to be used in HTML as classes.
+
 ## 🔮 Credits
 
 - [package.json file](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
