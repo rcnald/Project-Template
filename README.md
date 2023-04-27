@@ -33,19 +33,28 @@ This project used the following technologies:
 
 ## 🤔 How do I code?
 
-To start the more complex thing is here in `sass/`, inside of it has a lot of sub folders based on [SMACSS](http://smacss.com) methodology, splitting the code, to an 
-easy maintenance, let me make myseft clear:
+You may questioned yourself, what's those 'letter-{name}' things on HTML classes? It's called [Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), it's function is inform the type of the element just by seen it. I particular use these:
+  - `o-` - object
+  - `c-` - component
+  - `l-` - layout
+  - `u-` - utilities
+  - `t-` - themes
+  - `is-/has-` - states
+
+...Ok, you got it right? So... what are those things?
+
+To start the more complex thing in this project is `sass/`, inside of it has a lot of sub folders based on [SMACSS](http://smacss.com) methodology, splitting the code, to an easy maintenance, let me make myseft clear:
 
 ### src/sass structure
 
   - `abstract/` - contains variables and global style, like functions and mixins.
   - `base/` - css reset, default styles.
-  - `components/` - pretty much all the css remains here, remeber: one component equal to one file, inside it has a component styling and a layout styling, usually contains objects and others components in it; context aware.
+  - `components/` - pretty much all the css remains here, remeber: one component equal to one file, inside it has a component styling and a layout styling, usually contains objects and others components in it; context aware made to be independent.
   - `layouts/` - used to wrapper things up, in a global way.
-  - `objects/` - almost the same thing as components, but don't accept other objects or components other than itself.
-  - `states/` - animations.
+  - `objects/` - almost the same thing as components, they are made to be independent, but don't accept other objects or components other than itself.
+  - `states/` - temporary states or conditions, basically animations.
   - `themes/` - theme style, darkmode, halloween theme...
-  - `utilities/` - utilities to be used in HTML as classes.
+  - `utilities/` - css utilities to be used in HTML as classes.
 
 ## 🔮 Credits
 
