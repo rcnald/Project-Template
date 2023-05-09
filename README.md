@@ -1,4 +1,4 @@
-<h1 align="center">Project Template</h1>
+no<h1 align="center">Project Template</h1>
 
 ## ♾️ Requirements
 
@@ -40,6 +40,7 @@ You may questioned yourself, what's those 'letter-{name}' things on HTML classes
   - `u-` - utilities
   - `t-` - themes
   - `is-/has-` - states
+  - `js-` - js DOM elements
 
 ...Ok, you got it right? So... what are those things?
 
