@@ -33,7 +33,7 @@ This project used the following technologies:
 
 ## 🤔 How do I code?
 
-You may questioned yourself, what's those 'letter-{name}' things on HTML classes? It's called [Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), it's function is inform the type of the element just by seen it. I particular use these:
+You may questioned yourself, what's those 'letter-{name}' things on HTML classes? It's called [Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), it's function is inform the type of the element and where to find it just by seen it. I particular use these:
   - `o-` - object
   - `c-` - component
   - `l-` - layout
