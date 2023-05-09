@@ -1,7 +1,7 @@
 <h1 align="center">Project Template</h1>
 
-![https://img.shields.io/badge/language-en--US-green]
-[![pt-BR](https://img.shields.io/badge/language-pt--BR-gray)](https://github.com/rcnald/Project-Template/blob/main/README.pt-BR.md)
+[<img src="https://img.shields.io/badge/language-en--US-green">]
+[[![pt-BR](https://img.shields.io/badge/language-pt--BR-gray)](https://github.com/rcnald/Project-Template/blob/main/README.pt-BR.md)]
 
 ## ♾️ Requirements
 
