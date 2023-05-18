@@ -30,7 +30,7 @@ Este projeto usou as seguintes tecnologias:
 
 **npm install** deve ser executado quando você git clone (baixar) o arquivo para gerar a pasta 'node_modules', dentro todas as dependências para rodar as tecnologias.
 
-**npm start** ele inicia, sass, tailwindcs live-compiler e live-server na porta [localhost:3000](https://localhost:3000). Os arquivos compilados estarão na pasta 'dist' (somente escreva códigos na pasta 'src').
+**npm start** ele inicia, sass, tailwindcss live-compiler e live-server na porta [localhost:3000](https://localhost:3000). Os arquivos compilados estarão na pasta 'dist' (somente escreva códigos na pasta 'src').
 
 **npm run build** quando o projeto é concluído, ele compila novamente, apenas o arquivo dist/css, e executa o plug-in autoprefixer que evita problemas entre navegadores.
 
