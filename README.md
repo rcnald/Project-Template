@@ -28,9 +28,9 @@ This project used the following technologies:
 | npm start     | run live:server,sass & tailwind    | on production       |
 | npm run build | run autoprefixer                   | project is done     |
 
-**npm install** must be executed when you git clone(download) the file to generate de 'node_modules' folder, within all dependencies to run the technologies.
+**npm install** must be executed when you git clone(download) the file to generate the 'node_modules' folder, within all dependencies to run the technologies.
 
-**npm start** it starts, sass, tailwindcs live-compiler & live-server on [localhost:3000](https://localhost:3000) port. The compiled files it's going to be on 'dist' folder (only write codes in 'src' folder).
+**npm start** it starts, sass, tailwindcss live-compiler & live-server on [localhost:3000](https://localhost:3000) port. The compiled files it's going to be on 'dist' folder (only write codes in 'src' folder).
 
 **npm run build** when the project is done, it agains compile, just the dist/css file, its runs autoprefixer plugin that prevent cross-browser issues.
 
