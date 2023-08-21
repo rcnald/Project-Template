@@ -7,7 +7,6 @@
 
 - [Node.js](https://nodejs.org/en/download/)
 
-
 ## ⚗️ Tecnologias
 
 Este projeto usou as seguintes tecnologias:
@@ -23,7 +22,7 @@ Este projeto usou as seguintes tecnologias:
 ## 👨‍💻 Como usar
 
 | linha de comando | oque faz                            | OBS                        |
-|------------------|-------------------------------------|----------------------------|
+| ---------------- | ----------------------------------- | -------------------------- |
 | npm install      | instala dependencias(node_modules)  | executar primeiro, uma vez |
 | npm start        | executa live:server,sass & tailwind | em produção                |
 | npm run build    | executa autoprefixer                | projeto finalizado         |
@@ -37,13 +36,14 @@ Este projeto usou as seguintes tecnologias:
 ## 🤔 Como faço para codar?
 
 Você pode se questionar, o que são aquelas coisas de 'letra-{nome}' nas classes de HTML? Chama-se [Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), sua função é informar o tipo do elemento e onde encontra-lo apenas por vê-lo. Eu particularmente uso estes:
-  - `o-` - object
-  - `c-` - component
-  - `l-` - layout
-  - `u-` - utilities
-  - `t-` - themes
-  - `is-/has-` - states
-  - `js-` - DOM elements
+
+- `o-` - object
+- `c-` - component
+- `l-` - layout
+- `u-` - utilities
+- `t-` - themes
+- `is-/has-` - states
+- `js-` - DOM elements
 
 ...Ok, entendeu? Então... o que são essas coisas?
 
@@ -51,14 +51,14 @@ Para começar o mais complexo desse projeto é o `sass/`, dentro dele tem vária
 
 ### estrutura SASS
 
-  - `abstract/`<br> contém valores globais, como variáveis, funções e mixins. Estilos que podem ser usados ​​em todo o projeto.
-  - `base/` <br> stilos pré-determinados para tags, redefinição de css, muitos estilos padrão.
-  - `components/` <br> praticamente todo o css fica aqui, lembre-se: um componente igual a um arquivo, dentro dele tem um estilo de componente e um estilo de layout, os componentes são sensíveis ao contexto e foram feitos para serem independentes. podem conter objetos e outros componentes nele.
-  - `layouts/` <br> usado para agrupar as coisas, de forma global, não solicita especificidade. Todos os tipos de situações/ um layout igual a um arquivo.
-  - `objects/` <br> um objeto é igual a um arquivo, dentro dele tem um estilo de objeto e um estilo de layout, os objetos não são sensíveis ao contexto e foram feitos para serem independentes. Não deve conter componentes e outros objetos nele.
-  - `states/` <br> estados ou condições temporárias, basicamente animações, transições.
-  - `themes/` <br> estilo do tema, um tema igual a um arquivo, tema escuro, tema do dia das bruxas, os componentes/objetos são modificados para atender ao propósito do tema.
-  - `utilities/` <br> utilitários css que especificam certo estilo a ser usado no HTML como classes.
+- `abstract/`<br> contém valores globais, como variáveis, funções e mixins. Estilos que podem ser usados ​​em todo o projeto.
+- `base/` <br> stilos pré-determinados para tags, redefinição de css, muitos estilos padrão.
+- `components/` <br> praticamente todo o css fica aqui, lembre-se: um componente igual a um arquivo, dentro dele tem um estilo de componente e um estilo de layout, os componentes são sensíveis ao contexto e foram feitos para serem independentes. podem conter objetos e outros componentes nele.
+- `layouts/` <br> usado para agrupar as coisas, de forma global, não solicita especificidade. Todos os tipos de situações/ um layout igual a um arquivo.
+- `objects/` <br> um objeto é igual a um arquivo, dentro dele tem um estilo de objeto e um estilo de layout, os objetos não são sensíveis ao contexto e foram feitos para serem independentes. Não deve conter componentes e outros objetos nele.
+- `states/` <br> estados ou condições temporárias, basicamente animações, transições.
+- `themes/` <br> estilo do tema, um tema igual a um arquivo, tema escuro, tema do dia das bruxas, os componentes/objetos são modificados para atender ao propósito do tema.
+- `utilities/` <br> utilitários css que especificam certo estilo a ser usado no HTML como classes.
 
 ## 🔮 Creditos
 

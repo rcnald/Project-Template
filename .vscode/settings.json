@@ -9,5 +9,5 @@
   // tell the ESLint plugin to run on save
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
+  }
 }
